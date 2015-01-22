@@ -1,6 +1,9 @@
 # Quick-Drush
 Provides drush aliases, and customized functions
 
+## Instalation
+Drop the .bashrc file in you windows user folder _(eg. C:\Users\[Your Username])_
+
 ## Aliases and Functions
 
 | Command      | Syntax                           | What it does                                                                      |
