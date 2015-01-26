@@ -3,10 +3,11 @@ Provides drush aliases, and customized functions
 
 ## Instalation
 Drop the .bashrc file in you windows user folder _(eg. C:\Users\Your Username)_
+If you alraedy have your console open, be sure to restart it.
 
 ## Aliases and Functions
 
-| Command      | Syntax                           | What it does                                                                      |
+| Command      | Drush Equivalent                 | What it does                                                                      |
 | ------------ | -------------------------------- | --------------------------------------------------------------------------------- |
 | `dr`         | drush _[drush command]_          | Basic drush call                                                                  |
 | `mk`         | drush make _[makefile.make]_ -y  | Executes the make command (also asks to clear the contrib modules)                |
