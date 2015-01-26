@@ -1,7 +1,7 @@
 # Quick-Drush
 Provides drush aliases, and customized functions
 
-## Instalation
+## Installation
 Drop the .bashrc file in you windows user folder _(eg. C:\Users\Your Username)_
 If you alraedy have your console open, be sure to restart it.
 
