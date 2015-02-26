@@ -3,8 +3,13 @@ Provides drush aliases, and customized functions
 
 ## Installation
 
-Drop the .bashrc file in you windows user folder _(eg. C:\Users\Your Username)_
-If you alraedy have your console open, be sure to restart it.
+### No .bashrc file yet
+If you don't yet have the .bashrc file in you windows user folder _(eg. C:\Users\Your Username)_, create it, and copy the contents of .bashrc from this repo in there.
+
+### Already have a .bashrc file
+If you alreadye have a (customized) .bashrc file, copy the contents of .bashrc and paste it at the end of your current .bashrc file.
+
+__If you already have your console open, be sure to restart it.__
 
 ## Aliases and Functions
 
@@ -26,4 +31,10 @@ If you alraedy have your console open, be sure to restart it.
 
 
 ## Compatibility
+
+### OS
 Tested succesfully on Windows 7 and Ubuntu 14.04.2 LTS
+
+### Consoles
+Tested succesfully in Gitbash and Console2
+Does not work in the default windows cmd
