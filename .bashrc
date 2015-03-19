@@ -30,7 +30,7 @@ dr_reinstall() {
     kill -INT $$
   else
     echo 'Invalid answer given. Please answer with "y" or "n"'
-    reinstall
+    dr_reinstall
     kill -INT $$
   fi
 };
@@ -69,7 +69,7 @@ dr_mk() {
       drush make $1 -y
     else
       echo 'Invalid answer given. Please answer with "y" or "n"'
-      mk $1
+      dr_mk $1
       kill -INT $$
     fi
 };
