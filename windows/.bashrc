@@ -35,7 +35,7 @@ dr_reinstall() {
   fi
 };
 
-# Makes a specific project withing your site.
+# Makes a specific project within your site.
 dr_mkp() {
     if [ -z "$1" ]; then
       echo 'No makefile defined. please use "mkp makefile.make"'
@@ -50,6 +50,23 @@ dr_mkp() {
     fi
     echo "making $project from $1"
     drush make --projects="$project" --no-core "$1" -y
+};
+
+# Makes a specific library within your site.
+function dr_mkl() {
+    if [ -z "$1" ]; then
+      echo 'No makefile defined. please use "dr_mkl makefile.make"'
+      kill -INT $$
+    fi
+    echo -n 'What library would you like to make?: '
+    read library
+    if [ -z "$library" ]; then
+      echo 'Invalid input!'
+      mkp
+      kill -INT $$
+    fi
+    echo "making $library from $1"
+    drush make --libraries="$library" --no-core "$1" -y
 };
 
 # Make command that prompts to also clear the contrib module folder

@@ -36,12 +36,13 @@ __If you already have your console open, be sure to restart it.__
 | `praise_drupal` |                         | _Just for fun_ (prints the drupal logo to your console)            |
 
 
-| Function        | Drush Equivalent                                                     | What it does                                                                     |
-| --------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| `dr_cmk`        | drush make _[makefile.make]_ -y                                      | Executes the make command (also clears the contrib modules withouth prompt)      |
-| `dr_reinstall`  |                                                                      | Reinstalls your site (requires mysql command to work)(Run from drupal site root) |
-| `dr_mk`         | drush make _[makefile.make]_ -y                                      | Executes the make command (also asks to clear the contrib modules)               |
-| `dr_mkp`        | drush make --projects="_[project]_" --no-core "_[makefile.make]_" -y | Makes a specific project (module) from a build file                              |
+| Function        | Drush Equivalent                                                      | What it does                                                                     |
+| --------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `dr_cmk`        | drush make _[makefile.make]_ -y                                       | Executes the make command (also clears the contrib modules withouth prompt)      |
+| `dr_reinstall`  |                                                                       | Reinstalls your site (requires mysql command to work)(Run from drupal site root) |
+| `dr_mk`         | drush make _[makefile.make]_ -y                                       | Executes the make command (also asks to clear the contrib modules)               |
+| `dr_mkp`        | drush make --projects="_[project]_" --no-core "_[makefile.make]_" -y  | Makes a specific project (module) from a build file                              |
+| `dr_mkl`        | drush make --libraries="_[project]_" --no-core "_[makefile.make]_" -y | Makes a specific library from a build file                                       |
 
 ## Compatibility
 
